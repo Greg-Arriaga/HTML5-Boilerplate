@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My HTML5 boilerplate</title>
     <meta name="description" content="Download a clean, modern, and highly optimized HTML5 boilerplate for your next web development project. Includes semantic tags and performance best practices.">
-<!--
+    
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png"> 
@@ -16,7 +16,6 @@
     <meta property="og:url" content="https://yourwebsite.com/">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
--->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -40,12 +39,19 @@
         <h2>The Core Purpose of Our Site</h2>
         <p>This section is dedicated to the primary content on the page, logically structured using an H2 and wrapped in a section tag.</p>
     </section>
-</main>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Gregory Arriaga</p>
+    <nav aria-label="Footer Utility Navigation">
+        <ul>
+            <li><a href="/privacy.html">Privacy Policy</a></li>
+            <li><a href="/terms.html">Terms</a></li>
+        </ul>
+    </nav>
+    <address>
+        Contact: <a href="mailto:gregory.arriaga@example.com">Email Gregory</a>
+    </address>
+    <p>&copy; 2025 HTML5-Boilerplate</p>
   </footer>
-
-
 </body>
 </html>
